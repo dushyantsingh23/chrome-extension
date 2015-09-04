@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Practo Search Plugin",
+  "description": "This extension will search doctors for you",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ],
+
+   "background": {
+    "scripts": ["popup.js"],
+    "persistent": false
+}
+}
